@@ -12,6 +12,7 @@ body{
     color: white;
     font-size: 14pt;
     text-align: justify;
+    font-family: 'Shippori Mincho B1', serif;
 }
 header{
     background-image: url(images/tentacule.jpg);
