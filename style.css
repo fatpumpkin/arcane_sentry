@@ -1,0 +1,64 @@
+.logo{
+    height: 50px;
+    margin: 15px;
+}
+nav{
+    height: 80px;
+    background-color: #2a2a2a;
+}
+body{
+    margin: 0px;
+    background-color: #8c8c8c;
+    color: white;
+    font-size: 14pt;
+    text-align: justify;
+}
+header{
+    background-image: url(images/tentacule.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.title{
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    display: flex;
+    font-size: 48pt;
+}
+.subtitle{
+    font-size: 28pt;
+    text-align: center;
+}
+.text{
+    padding: 100px;
+}
+.center{
+    text-align: center;
+}
+.toggle{
+    display: none;
+    
+}
+.section{
+    position: relative;
+    height: 1199px;
+}
+.button{
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    top: 610px;
+    left: 800px;
+    z-index: 1;
+}
+.top{
+    position: absolute;
+    top: 0px;
+    height: 622px;
+}
+.bas{
+    position: absolute;
+    top: 622px;
+    height: 577px;
+}
