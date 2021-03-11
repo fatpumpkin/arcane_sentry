@@ -70,3 +70,27 @@ header{
     margin-left: auto;
     margin-right: auto;
 }
+
+.tester {
+    height : 300px;
+    width: 300px;
+    border-radius: 100%;
+    font-size: 38pt;
+    background-color: rgb(173, 24, 24);
+    color: white;
+    border: solid 10px white;
+    margin: 50px;
+ 
+}
+
+.result{
+    width: 50%;
+    height : 500px;
+    background-color: rgb(73, 73, 73);
+    border: white 10px solid;
+    float: right;
+    margin:50px;
+    font-size: 38pt;
+    color: white;
+    text-align: center;
+}

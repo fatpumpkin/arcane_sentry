@@ -18,11 +18,14 @@ let charactername = ["Meredith", "Robert", "Kirael", "Jean", "Johnny", "Kathleen
 let characterclass = ["Wizard", "Paladin", "Necromancer", "Fighter", "Rogue"];
 let race = ["Human", "Orc", "Elf", "Dwarf", "Tiefling"];
 let specialisation = [];
-let i = "";
-let i2 = "";
+let cname = "";
+let cclass = "";
+let crace = "";
+
 
 function randomizer() {
-    i = charactername[Math.floor(Math.random() * charactername.length)];
-    i2 = charactername[charactername.length - i];
-    alert(i2);
+    cname = charactername[Math.floor(Math.random() * charactername.length)];
+    cclass = characterclass[Math.floor(Math.random() * characterclass.length)];
+    crace = race[Math.floor(Math.random() * race.length)];
+    $("#result").html("<p>" + cname + "</p> <p>" + cclass + "</p> <p>" + crace + "</p>")
 }
