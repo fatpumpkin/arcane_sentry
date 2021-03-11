@@ -27,5 +27,21 @@ function randomizer() {
     cname = charactername[Math.floor(Math.random() * charactername.length)];
     cclass = characterclass[Math.floor(Math.random() * characterclass.length)];
     crace = race[Math.floor(Math.random() * race.length)];
-    $("#result").html("<p>" + cname + "</p> <p>" + crace + "</p> <p>" + cclass + "</p>")
+    if (cclass == 'Wizard') {
+        specialisation = ['Scribe', 'Arcanist', 'Summoner', 'Pyromancer', 'Cryomancer']
+    }
+    if (cclass == 'Paladin') {
+        specialisation = ['Crusader', 'Divine Guardian', 'Oathbound', 'Holy Tactician']
+    }
+    if (cclass == 'Necromancer') {
+        specialisation = ['Necrolord', 'Soul Stitcher', 'Keeper of Souls', 'Plague Spreader']
+    }
+    if (cclass == 'Fighter') {
+        specialisation = ['Champion', 'Weapon Master', 'Duelist', 'Eldritch Warrior', 'Samurai', 'Cavalier']
+    }
+    if (cclass == 'Rogue') {
+        specialisation = ['Assassin', 'Scout', 'Swashbuckler', 'Thief', 'Arcane Trickster']
+    }
+    cspecialisation = specialisation[Math.floor(Math.random() * specialisation.length)];
+    $("#result").html("<p>" + cname + "</p> <p>" + crace + "</p> <p>" + cclass + "</p> <p>" + cspecialisation + "</p>")
 }
