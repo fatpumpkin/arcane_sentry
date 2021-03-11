@@ -39,7 +39,8 @@ header{
 }
 .toggle{
     display: none;
-    
+    position: absolute;
+    top: 622px;
 }
 .section{
     position: relative;
@@ -62,4 +63,10 @@ header{
     position: absolute;
     top: 622px;
     height: 577px;
+}
+.potion{
+    height: 500px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
