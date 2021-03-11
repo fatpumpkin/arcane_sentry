@@ -27,5 +27,5 @@ function randomizer() {
     cname = charactername[Math.floor(Math.random() * charactername.length)];
     cclass = characterclass[Math.floor(Math.random() * characterclass.length)];
     crace = race[Math.floor(Math.random() * race.length)];
-    $("#result").html("<p>" + cname + "</p> <p>" + cclass + "</p> <p>" + crace + "</p>")
+    $("#result").html("<p>" + cname + "</p> <p>" + crace + "</p> <p>" + cclass + "</p>")
 }
