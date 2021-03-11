@@ -1,3 +1,6 @@
+// Toggle main page
+// Works by checking if the button is at true/false then splits or reassemble the image
+
 let e = true;
 function togglesection() {
     if (e == true) {
@@ -13,6 +16,10 @@ function togglesection() {
         e = true;
     }
 }
+
+// This is the randomizer! 
+// It works by selecting an array, rolling a random element from this array and sending it back to the DOM. 
+// The specialisation selection depends on the random class selection
 
 let charactername = ["Meredith", "Robert", "Kirael", "Jean", "Johnny", "Kathleen", "Aria", "Alberto", "Antonio", "Eralaya"];
 let characterclass = ["Wizard", "Paladin", "Necromancer", "Fighter", "Rogue"];
