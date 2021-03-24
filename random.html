@@ -14,6 +14,26 @@
 <body>
     <button class='tester' onclick="randomizer()">Test your script!</button>
     <div id='result' class='result'></div>
+    <div>
+        <form action="submit">
+            Nom : <input type="text" name='nom'><br>
+            <select name='crace' class='select' id='crace'>
+                <option value="human">Human</option>
+                <option value="orc">Orc</option>
+                <option value="elf">Elf</option>
+                <option value="dwarf">Dwarf</option>
+                <option value="tiefling">Tiefling</option>
+            </select>
+            <select name='cclass' class='select' id='cclass'>
+                <option value="wizard">Wizard</option>
+                <option value="paladin">Paladin</option>
+                <option value="necromancer">Necromancer</option>
+                <option value="fighter">Fighter</option>
+                <option value="rogue">Rogue</option>
+            </select>
+            <select name='specialisation' class="select" id="specialisation"></select>
+        </form>
+    </div>
     <script src="jquery.min.js"></script>
     <script src="script.js"></script>
 </body>
