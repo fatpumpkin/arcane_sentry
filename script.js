@@ -74,4 +74,5 @@ $(document).ready(function () {
             $("#specialisation").html("<option value='0'>Select a specialisation</option> <option value='assassin'>Assassin</option><option value='scout'>Scout</option><option value='swashbuckler'>Swashbuckler</option><option value='thief'>Thief</option><option value='arcanetrickster'>Arcane Trickster</option>");
 
         }
-    }});
+    });
+});
